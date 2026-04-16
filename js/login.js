@@ -26,7 +26,6 @@ document.querySelector("form").addEventListener('submit', (event)  => {
         message.style.color = "green"
 
         localStorage.setItem("userEmail", email)
-        window.location.replace("/index.html")
     } else {
         message.textContent = "Email ou senha inválidos!"
         message.style.color = "red";

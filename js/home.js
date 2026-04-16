@@ -4,4 +4,4 @@ if (userEmail) {
     message.textContent = `Bem-vindo de volta, ${userEmail}`
 }
 
- window.location.replace("./pages/auth/register.html")
+ window.location.replace("/login-system/pages/auth/login.html")
