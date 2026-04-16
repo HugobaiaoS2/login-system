@@ -43,6 +43,6 @@ document.querySelector("form").addEventListener('submit', (event)  => {
     message.textContent = "Registro realizado com sucesso!"
     message.style.color = "green"
 
-    window.location.replace("login.html")
+    window.location.replace("./pages/auth/login.html")
 
 })
