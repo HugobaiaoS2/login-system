@@ -46,5 +46,3 @@ document.querySelector("form").addEventListener('submit', (event)  => {
     window.location.replace("login.html")
 
 })
-
-        console.log(users)
